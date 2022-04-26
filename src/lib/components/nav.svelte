@@ -1,0 +1,130 @@
+<script>
+	import { page } from '$app/stores';
+	import logo from '/Logos/CuatexFullLogo.svg';
+</script>
+
+<header>
+	<nav>
+		<a class="logo" href="/">
+			<img src={logo} alt="Cuatex Logo" />
+		</a>
+
+		<div class="right">
+			<a class="about" sveltekit:prefetch href="/about">About this blog</a>
+			<a class="contact" sveltekit:prefetch href="/contact">Contact</a>
+		</div>
+	</nav>
+</header>
+<div class="test">
+	<div class="bottomNav">
+		<a href="/about" class="b about">About</a>
+		<a href="/about" class="b cta login">Login</a>
+		<a href="/" class="b cta signup">Sign Up</a>
+	</div>
+</div>
+
+<style>
+	/* i like this nav style more than the first one */
+	/* overall styles for nav */
+	header {
+		position: sticky;
+		top: 0px;
+	}
+	nav {
+		background-color: #dbd6d6;
+		display: flex;
+		justify-content: space-between;
+		padding: 0rem 2rem;
+	}
+	/* logo styling */
+	.logo img {
+		display: block;
+	}
+	/* styles to the right of the logo */
+	.right {
+		display: flex;
+		align-items: center;
+		column-gap: 3rem;
+	}
+	/* About link stlye */
+	.about {
+		text-decoration: none;
+		color: #fe7b43;
+		font-weight: 600;
+		border: 1px #fe7b43 solid;
+		padding: 0.35rem;
+		border-radius: 35rem;
+	}
+	/* Login and signup styling */
+	.user {
+		display: flex;
+		gap: 0.5rem;
+	}
+	.cta {
+		text-decoration: none;
+		padding: 0.35rem;
+		border-radius: 35rem;
+		border: 1px solid;
+	}
+	.signup {
+		background-color: #575899;
+		border-color: #575899;
+		color: white;
+	}
+	.login {
+		background-color: #f2f2f2;
+		border-color: #575899;
+		color: #575899;
+		align-self: center;
+	}
+	.signup:hover {
+		border: 1px #fe7b43 solid;
+		font-weight: 600;
+	}
+	.login:hover {
+		border: 1px #fe7b43 solid;
+		font-weight: 600;
+	}
+
+	/* hiding bottom nav for regular use */
+	.bottomNav {
+		display: none;
+	}
+	/* bottom nav for mobile */
+	@media screen and (max-width: 768px) {
+		/* .test {
+			position: sticky;
+		} */
+		.bottomNav {
+			overflow: hidden;
+			background-color: #dbd6d6;
+			position: fixed;
+			display: flex;
+			justify-content: space-around;
+			bottom: 0;
+			width: 100%;
+			padding: 0.5rem;
+		}
+
+		.bottomNav a {
+			float: left;
+			display: block;
+			text-align: center;
+			text-decoration: none;
+		}
+		.right {
+			display: none;
+		}
+		nav {
+			justify-content: space-evenly;
+		}
+	}
+
+	/* styling for really big screens */
+
+	@media screen and (min-width: 1660px) {
+		nav {
+			padding: 0 10%;
+		}
+	}
+</style>
