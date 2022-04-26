@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '/Logos/CuatexFullLogo.svg';
+	import logo from '../logos/CuatexFullLogo.svg';
 </script>
 
 <header>
@@ -11,15 +11,14 @@
 
 		<div class="right">
 			<a class="about" sveltekit:prefetch href="/about">About this blog</a>
-			<a class="contact" sveltekit:prefetch href="/contact">Contact</a>
+			<a class="cta login" sveltekit:prefetch href="/portfolio">Portfolio</a>
 		</div>
 	</nav>
 </header>
 <div class="test">
 	<div class="bottomNav">
-		<a href="/about" class="b about">About</a>
-		<a href="/about" class="b cta login">Login</a>
-		<a href="/" class="b cta signup">Sign Up</a>
+		<a href="/about" class="about">About</a>
+		<a href="/portfolio" class="cta login">Portfolio</a>
 	</div>
 </div>
 
@@ -56,10 +55,6 @@
 		border-radius: 35rem;
 	}
 	/* Login and signup styling */
-	.user {
-		display: flex;
-		gap: 0.5rem;
-	}
 	.cta {
 		text-decoration: none;
 		padding: 0.35rem;
@@ -76,6 +71,7 @@
 		border-color: #575899;
 		color: #575899;
 		align-self: center;
+		font-weight: 600;
 	}
 	.signup:hover {
 		border: 1px #fe7b43 solid;
