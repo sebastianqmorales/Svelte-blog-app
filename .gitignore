@@ -6,3 +6,5 @@ node_modules
 .env
 .env.*
 !.env.example
+src/lib/logos/CuatexFullLogo.svg
+src/lib/logos/CuatexSVGSmallLogo.svg
