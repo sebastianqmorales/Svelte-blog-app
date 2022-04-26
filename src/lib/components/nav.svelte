@@ -30,7 +30,8 @@
 		top: 0px;
 	}
 	nav {
-		background-color: #dbd6d6;
+		/* background-color: #dbd6d6; */
+		background-color: #e7e7e7;
 		display: flex;
 		justify-content: space-between;
 		padding: 0rem 2rem;
