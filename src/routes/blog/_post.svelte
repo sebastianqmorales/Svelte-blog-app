@@ -4,6 +4,7 @@
 	export let snippet;
 </script>
 
+<a class="back-button" href="/">Go Back</a>
 <h1>{title}</h1>
 <p>Published: {date}</p>
 <p>{snippet}</p>

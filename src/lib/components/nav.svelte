@@ -60,7 +60,6 @@
 		padding: 0.35rem;
 		border-radius: 35rem;
 		border: 1px solid;
-		background-color: #f2f2f2;
 		border-color: #575899;
 		color: #575899;
 		align-self: center;
