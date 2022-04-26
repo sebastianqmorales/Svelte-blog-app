@@ -11,14 +11,14 @@
 
 		<div class="right">
 			<a class="about" sveltekit:prefetch href="/about">About this blog</a>
-			<a class="cta login" sveltekit:prefetch href="/portfolio">Portfolio</a>
+			<a class="portfolio" sveltekit:prefetch href="/portfolio">Portfolio</a>
 		</div>
 	</nav>
 </header>
 <div class="test">
 	<div class="bottomNav">
 		<a href="/about" class="about">About</a>
-		<a href="/portfolio" class="cta login">Portfolio</a>
+		<a href="/portfolio" class="portfolio">Portfolio</a>
 	</div>
 </div>
 
@@ -54,30 +54,20 @@
 		padding: 0.35rem;
 		border-radius: 35rem;
 	}
-	/* Login and signup styling */
-	.cta {
+	/* Portfolio button styling */
+	.portfolio {
 		text-decoration: none;
 		padding: 0.35rem;
 		border-radius: 35rem;
 		border: 1px solid;
-	}
-	.signup {
-		background-color: #575899;
-		border-color: #575899;
-		color: white;
-	}
-	.login {
 		background-color: #f2f2f2;
 		border-color: #575899;
 		color: #575899;
 		align-self: center;
 		font-weight: 600;
 	}
-	.signup:hover {
-		border: 1px #fe7b43 solid;
-		font-weight: 600;
-	}
-	.login:hover {
+
+	.portfolio:hover {
 		border: 1px #fe7b43 solid;
 		font-weight: 600;
 	}
@@ -120,7 +110,7 @@
 
 	@media screen and (min-width: 1660px) {
 		nav {
-			padding: 0 10%;
+			padding: 0 20%;
 		}
 	}
 </style>
