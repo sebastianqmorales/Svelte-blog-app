@@ -49,11 +49,11 @@
 	ul {
 		list-style: none;
 		padding-left: 0;
-		width: 100%;
+		/* width: 100%; */
 		margin: 0mm;
 	}
 	li {
-		border: 1px solid #dbd6d6;
+		/* border: 1px solid #dbd6d6; */
 		padding: 1rem;
 	}
 
