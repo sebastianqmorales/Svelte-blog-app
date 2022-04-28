@@ -1,7 +1,6 @@
 <script>
 	export let title;
 	export let date;
-	export let snippet;
 	export let categories;
 </script>
 
@@ -10,24 +9,24 @@
 	<h1>{title}</h1>
 	{#if categories.length}
 		<div class="categoriescontainer">
-			<p>Published: {date}</p>
+			<p class="date">Published: {date}</p>
 			{#each categories as category}
 				<div class="categorycontainer">
 					<a href="/blog/categories/{category}">
-						{category}
+						#{category}
 					</a>
 				</div>
 			{/each}
 		</div>
 	{/if}
-	<!-- Need to make a function to calculate snippets of the blog -->
-	<p>{snippet}</p>
 	<slot />
 </div>
 
 <style>
+	/* Styles are organized from top of html to bottom */
 	.post-container {
 		margin: 1rem;
+		padding: 2rem;
 	}
 
 	.back-button {
@@ -50,6 +49,7 @@
 		display: flex;
 		gap: 1rem;
 		align-items: center;
+		margin-bottom: 2rem;
 	}
 	.categorycontainer {
 		border: 1px solid #fe7b43;
@@ -63,5 +63,13 @@
 	}
 	.categoriescontainer > p {
 		margin: 0;
+	}
+
+	/* Mobile styling */
+	@media screen and (max-width: 768px) {
+		.post-container {
+			margin: 0;
+			padding: 1rem;
+		}
 	}
 </style>

@@ -83,7 +83,7 @@
 		} */
 		.bottomNav {
 			overflow: hidden;
-			background-color: #dbd6d6;
+			background-color: #e7e7e7;
 			position: fixed;
 			display: flex;
 			justify-content: space-around;

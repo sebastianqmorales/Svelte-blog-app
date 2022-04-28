@@ -34,6 +34,7 @@
 				</div>
 				<p>
 					<a href={post.path}>
+						<!-- Need to make a function to calculate snippets of the blog -->
 						{post.meta.snippet}
 					</a>
 				</p>
