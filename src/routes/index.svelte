@@ -24,11 +24,13 @@
 						{post.meta.title}
 					</a>
 				</h1>
-				<div class="date">
+				<div class="datecategoriescontainer">
 					{post.meta.date}
-					<div class="biascontainer">
-						{post.meta.bias}
-					</div>
+					{#each post.meta.categories as category}
+						<div class="categorycontainer">
+							#{category}
+						</div>
+					{/each}
 				</div>
 				<p>
 					<a href={post.path}>
@@ -60,16 +62,16 @@
 	h1 {
 		margin: 0.15rem 0rem;
 	}
-	.date {
+	.datecategoriescontainer {
 		display: flex;
 		align-items: center;
-		gap: 2rem;
+		gap: 1rem;
 		margin: 0;
 		margin-left: 0.4rem;
 		padding: 0;
 	}
 
-	.biascontainer {
+	.categorycontainer {
 		color: #fe7b43;
 		font-weight: 600;
 		border: 1px solid #fe7b43;
