@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '../logos/CuatexFullLogo.svg';
+	import logo from '$lib/logos/CuatexFullLogo.svg';
 </script>
 
 <header>
