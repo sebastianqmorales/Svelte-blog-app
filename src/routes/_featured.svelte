@@ -1,11 +1,10 @@
 <script>
-	export let title;
 	export let date;
+	export let title;
 	export let categories;
 </script>
 
-<div class="post-container">
-	<a class="back-button" href="/">Go Back</a>
+<div class="container">
 	<h1>{title}</h1>
 	{#if categories.length}
 		<div class="categoriescontainer">
@@ -23,22 +22,8 @@
 </div>
 
 <style>
-	/* Styles are organized from top of html to bottom */
-	.post-container {
-		margin: 1rem;
-		padding: 2rem;
-	}
-
-	.back-button {
-		text-decoration: none;
-		color: #575899;
-		border: 1px solid #575899;
-		border-radius: 0.5rem;
-		padding: 0.1rem;
-	}
-	.back-button:hover {
-		font-weight: 600;
-		border: 2px solid #575899;
+	.container {
+		padding: 3rem;
 	}
 
 	h1 {
@@ -61,21 +46,13 @@
 		text-decoration: none;
 		color: #fe7b43;
 	}
-	.categorycontainer:hover {
-		color: #fe7b43;
-		background-color: #fe7b43;
-	}
-
-	.categorycontainer a:hover {
-		color: #e7e7e7;
-	}
 	.categoriescontainer > p {
 		margin: 0;
 	}
 
 	/* Mobile styling */
 	@media screen and (max-width: 768px) {
-		.post-container {
+		.container {
 			margin: 0;
 			padding: 1rem;
 		}

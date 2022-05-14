@@ -11,14 +11,14 @@
 
 		<div class="right">
 			<a class="about" sveltekit:prefetch href="/about">About this blog</a>
-			<a class="portfolio" sveltekit:prefetch href="/portfolio">Portfolio</a>
+			<a class="portfolio" sveltekit:prefetch href="/featured">Featured</a>
 		</div>
 	</nav>
 </header>
 <div class="test">
 	<div class="bottomNav">
 		<a href="/about" class="about">About</a>
-		<a href="/portfolio" class="portfolio">Portfolio</a>
+		<a href="/featured" class="portfolio">Featured</a>
 	</div>
 </div>
 
@@ -49,20 +49,22 @@
 	/* About link stlye */
 	.about {
 		text-decoration: none;
-		color: #fe7b43;
 		font-weight: 600;
+		color: #fe7b43;
 		border: 1px #fe7b43 solid;
 		padding: 0.35rem;
 		border-radius: 35rem;
 	}
 	/* Portfolio button styling */
 	.portfolio {
+		color: #fe7b43;
+		border: 1px #fe7b43 solid;
 		text-decoration: none;
 		padding: 0.35rem;
 		border-radius: 35rem;
 		border: 1px solid;
-		border-color: #575899;
-		color: #575899;
+		/* border-color: #575899;
+		color: #575899; */
 		align-self: center;
 		font-weight: 600;
 	}

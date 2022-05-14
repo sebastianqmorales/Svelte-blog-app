@@ -16,7 +16,7 @@ const config = {
 			extensions: ['.md'],
 			layout: {
 				blog: 'src/routes/blog/_post.svelte',
-				portfolio: 'src/routes/_portfolio.svelte'
+				featured: 'src/routes/_featured.svelte'
 			}
 		})
 	]
