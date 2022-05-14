@@ -28,7 +28,9 @@
 					{post.meta.date}
 					{#each post.meta.categories as category}
 						<div class="categorycontainer">
-							#{category}
+							<a href="/blog/categories/{category}">
+								#{category}
+							</a>
 						</div>
 					{/each}
 				</div>
@@ -79,6 +81,21 @@
 		border-radius: 0.5rem;
 		padding: 0.1rem;
 	}
+	.categorycontainer > a {
+		font-weight: 600;
+		text-decoration: none;
+		color: #fe7b43;
+	}
+
+	.categorycontainer:hover {
+		color: #fe7b43;
+		background-color: #fe7b43;
+	}
+
+	.categorycontainer a:hover {
+		color: #e7e7e7;
+	}
+
 	p {
 		margin: 0.5rem;
 		color: black;
