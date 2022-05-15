@@ -34,7 +34,7 @@
 						</div>
 					{/each}
 				</div>
-				<p>
+				<p class="snippetcontainer">
 					<a href={post.path}>
 						<!-- Need to make a function to calculate snippets of the blog -->
 						{post.meta.snippet}
@@ -70,7 +70,6 @@
 		align-items: center;
 		gap: 1rem;
 		margin: 0;
-		margin-left: 0.4rem;
 		padding: 0;
 	}
 
@@ -96,8 +95,9 @@
 		color: #e7e7e7;
 	}
 
-	p {
-		margin: 0.5rem;
+	.snippetcontainer {
+		margin: 0;
+		margin-top: 1rem;
 		color: black;
 	}
 

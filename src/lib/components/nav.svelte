@@ -17,6 +17,7 @@
 </header>
 <div class="test">
 	<div class="bottomNav">
+		<a href="/" class="about">Home</a>
 		<a href="/about" class="about">About</a>
 		<a href="/featured" class="portfolio">Featured</a>
 	</div>
@@ -63,14 +64,7 @@
 		padding: 0.35rem;
 		border-radius: 35rem;
 		border: 1px solid;
-		/* border-color: #575899;
-		color: #575899; */
 		align-self: center;
-		font-weight: 600;
-	}
-
-	.portfolio:hover {
-		border: 1px #fe7b43 solid;
 		font-weight: 600;
 	}
 
