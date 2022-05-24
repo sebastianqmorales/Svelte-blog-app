@@ -10,7 +10,7 @@
 	</a>
 	{#if categories.length}
 		<div class="categoriescontainer">
-			<p class="date">Published: {date}</p>
+			<p class="date">{date}</p>
 			{#each categories as category}
 				<div class="categorycontainer">
 					<a href="/blog/categories/{category}">
