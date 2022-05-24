@@ -26,6 +26,8 @@
 	/* Styles are organized from top of html to bottom */
 	.post-container {
 		margin: 1rem;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
 		padding: 2rem;
 	}
 
@@ -78,6 +80,13 @@
 		.post-container {
 			margin: 0;
 			padding: 1rem;
+		}
+	}
+
+	/* styling for really big screens */
+	@media screen and (min-width: 1660px) {
+		.post-container {
+			padding: 0 20%;
 		}
 	}
 </style>

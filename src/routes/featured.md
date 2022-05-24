@@ -1,12 +1,8 @@
 ---
 layout: featured
-title: Why being a devils advocate will save your life
-date: 'March 5th, 2022'
+title: Data Dignity is the future of the internet
+date: 'May 1st, 2022'
 categories:
-  - 'personal'
-  - 'opinion'
+  - 'Data Dignity'
+snippet: 'Data unions run the internet, users are incentivized to contribute higher quality data to earn more money. AI is more intelligent, using data that it has paid for, creating higher quality data. A new economic sector has opened to the public, data trading and selling.'
 ---
-
-### What is a Devils Advocate?
-
-Being a devils advocate seems like a meanial thing, a trait that people despise because it is annoying or challenges their beliefs.

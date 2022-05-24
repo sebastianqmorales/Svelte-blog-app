@@ -105,4 +105,11 @@
 		text-decoration: none;
 		color: black;
 	}
+
+	/* styling for really big screens */
+	@media screen and (min-width: 1660px) {
+		.container {
+			padding: 0 20%;
+		}
+	}
 </style>

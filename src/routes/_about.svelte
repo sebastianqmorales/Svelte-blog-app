@@ -1,13 +1,14 @@
 <div class="container">
 	<a class="back-button" href="/">Go Back</a>
-	<h1>This is the about page</h1>
-	<p>This is my about page.</p>
+	<h1>About Cuatex</h1>
 	<slot />
 </div>
 
 <style>
 	.container {
 		margin: 1rem;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
 		padding: 2rem;
 	}
 
@@ -23,7 +24,10 @@
 		border: 2px solid #575899;
 	}
 
-	p {
-		margin-left: 0.25rem;
+	/* styling for really big screens */
+	@media screen and (min-width: 1660px) {
+		.container {
+			padding: 0 20%;
+		}
 	}
 </style>

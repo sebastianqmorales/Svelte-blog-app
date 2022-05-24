@@ -5,7 +5,9 @@
 </script>
 
 <div class="container">
-	<h1>{title}</h1>
+	<a class="link" href="/blog/DataDignity">
+		<h1>{title}</h1>
+	</a>
 	{#if categories.length}
 		<div class="categoriescontainer">
 			<p class="date">Published: {date}</p>
@@ -22,6 +24,13 @@
 </div>
 
 <style>
+	/* I want this page to list featured content  maybe I will revist later*/
+	/* temp styling for links */
+	.link {
+		text-decoration: none;
+		color: black;
+	}
+
 	.container {
 		padding: 3rem;
 	}
@@ -55,6 +64,13 @@
 		.container {
 			margin: 0;
 			padding: 1rem;
+		}
+	}
+
+	/* styling for really big screens */
+	@media screen and (min-width: 1660px) {
+		.container {
+			padding: 0 20%;
 		}
 	}
 </style>
