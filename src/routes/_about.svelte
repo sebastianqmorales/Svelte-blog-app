@@ -24,6 +24,13 @@
 		border: 2px solid #575899;
 	}
 
+	/* Mobile styling */
+	@media screen and (max-width: 768px) {
+		.container {
+			margin: 0;
+			padding: 1rem;
+		}
+	}
 	/* styling for really big screens */
 	@media screen and (min-width: 1660px) {
 		.container {
