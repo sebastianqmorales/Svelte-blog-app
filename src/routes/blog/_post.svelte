@@ -20,9 +20,70 @@
 		</div>
 	{/if}
 	<slot />
+	<div class="v-comments-container">
+		<div class="agree">
+			<h4>AGREEING</h4>
+			<div class="comment">
+				<p>Agreeing</p>
+				<p>This is some text</p>
+			</div>
+		</div>
+		<div class="neutral">
+			<h4>NEUTRAL</h4>
+			<div class="comment">
+				<p>Neutral</p>
+				<p>This is some text</p>
+			</div>
+		</div>
+		<div class="disagree">
+			<h4>DISAGREEING</h4>
+			<div class="comment">
+				<p>Agreeing</p>
+				<p>This is some text</p>
+			</div>
+		</div>
+	</div>
 </div>
 
 <style>
+	/* Venn comments  */
+	.v-comments-container {
+		margin-top: 80px;
+		display: grid;
+		grid-template-columns: repeat(3, auto);
+		grid-template-rows: 1fr;
+		justify-items: stretch;
+	}
+	.v-comments-container > div {
+		display: flex;
+		flex-direction: column;
+	}
+	.v-comments-container > div > h4 {
+		align-self: center;
+		margin-top: 15px;
+		margin-bottom: 0px;
+	}
+	.agree {
+		padding-left: 10px;
+		border: 1px solid blue;
+		border-bottom-left-radius: 10px;
+		border-top-left-radius: 10px;
+	}
+	.neutral {
+		padding-left: 10px;
+		border: 1px solid grey;
+	}
+	.disagree {
+		padding-left: 10px;
+		border: 1px solid red;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+	.agree p,
+	.neutral p,
+	.disagree p {
+		margin: 10px;
+	}
 	/* Styles are organized from top of html to bottom */
 	.post-container {
 		margin: 1rem;
@@ -80,6 +141,17 @@
 		.post-container {
 			margin: 0;
 			padding: 1rem;
+		}
+
+		.v-comments-container {
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat(3, auto);
+		}
+
+		.agree,
+		.neutral,
+		.disagree {
+			border-radius: 10px;
 		}
 	}
 
