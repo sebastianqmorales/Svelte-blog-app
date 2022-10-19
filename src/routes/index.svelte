@@ -58,7 +58,8 @@
 		margin: 0mm;
 	}
 	li {
-		/* border: 1px solid #dbd6d6; */
+		border: 1px solid #fe7b43;
+		border-radius: 20px;
 		padding: 1rem;
 	}
 
