@@ -12,7 +12,7 @@
 			<p class="date">{date}</p>
 			{#each categories as category}
 				<div class="categorycontainer">
-					<a href="/blog/categories/{category}">
+					<a href="/blog-posts/categories/{category}">
 						#{category}
 					</a>
 				</div>
