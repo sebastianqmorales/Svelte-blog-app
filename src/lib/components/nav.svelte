@@ -10,7 +10,7 @@
 		</a>
 
 		<div class="right">
-			<a class="about" sveltekit:prefetch href="/about">About this blog</a>
+			<a class="about" sveltekit:prefetch href="/about">About</a>
 			<a class="portfolio" sveltekit:prefetch href="/featured">Featured</a>
 		</div>
 	</nav>
@@ -32,7 +32,8 @@
 	}
 	nav {
 		/* background-color: #dbd6d6; */
-		background-color: #e7e7e7;
+		/* background-color: #e7e7e7; */
+		background-color: #fff;
 		display: flex;
 		justify-content: space-between;
 		padding: 0rem 2rem;
