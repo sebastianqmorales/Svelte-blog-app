@@ -1,18 +1,21 @@
-<script>
+<!-- <script>
 	import logo from '$lib/logos/CuatexFullLogo.svg';
-</script>
+</script> -->
 
-<div class="container">
-	<div class="logo"><img src={logo} alt="Cuatex Logo" /></div>
+<div class="container is-max-desktop">
 	<div class="cta-message">
 		Be the first to create an account and claim a user name! Sign up to be notified of our launch.
 	</div>
-	<form name="cta" method="post" data-netlify="true" class="cta-input">
-		<label>Reserve your username <input type="name" name="username" /> </label>
-		<label>Email <input type="email" name="email" /> </label>
+	<form class="field mb-0" name="username" method="POST" data-netlify="true">
+		<!-- svelte-ignore a11y-label-has-associated-control -->
+		<label class="label mb-0 mt-1">Email</label>
+		<div class="control">
+			<input class="input" type="email" placeholder="example@gmail.com" />
+		</div>
+		<p class="help " />
 	</form>
-	<div class="email-submission">this will be the submission button</div>
-	<div class="email-disclaimer">
+	<div class="button mt-0">Submit</div>
+	<div class="email-disclaimer mt-4">
 		By submitting this form you consent to us emailing you occasionally about our products and
 		services. You can unsubscribe from emails at any time, and we will never pass your email to
 		third parties.
@@ -21,43 +24,41 @@
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-	/* .logo img {
-		position: relative;
-	} */
-	.container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 700px;
-		/* margin-left: 10%;
-		margin-right: 10%;
-		margin-top: 0px; */
-		margin-bottom: 20px;
-		padding: 50px;
-		border: 1px solid #fe7b43;
-		border-radius: 10px;
+	* {
+		font-family: 'Roboto', sans-serif;
 	}
-
 	.cta-message {
 		font-family: 'Roboto', sans-serif;
 		font-weight: bold;
 		color: black;
 		text-align: center;
+		font-size: larger;
 	}
-
-	.cta-input {
+	.container {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		border: 1px solid black;
-		background-color: #fff;
+		background-color: #fe7b43;
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border: 1px solid #fe7b43;
+		border-radius: 10px;
 	}
-
-	.cta-input label {
-		border: 1px solid black;
-	}
-
-	.cta-input input {
+	.button {
+		background-color: #ff4d00;
+		font-weight: bolder;
+		letter-spacing: 1px;
 		border: 0px;
+	}
+	.button:hover {
+		transform: scale(1.05);
+	}
+
+	@media screen and (max-width: 768px) {
+		.container {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
 	}
 </style>
