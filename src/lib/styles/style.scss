@@ -1,6 +1,16 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css';
-html {
-	font-family: sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+// @font-face {
+// 	font-family: 'Benton Sans';
+// 	src: url('/src/lib/styles/BentonSans-Bold.otf');
+// 	src: url('/src/lib/styles/BentonSans-Bold.otf') format('otf'),
+// 		url('/src/lib/styles/BentonSans-Light.otf') format('otf'),
+// 		url('/src/lib/styles/BentonSans-Book.otf') format('otf');
+// }
+* {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
 	font-size: 18px;
 }
 
