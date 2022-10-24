@@ -54,6 +54,7 @@
 		font-weight: 700;
 		letter-spacing: 1px;
 		border: 0px;
+		font-size: 1.2rem;
 	}
 	.button:hover {
 		transform: scale(1.05);

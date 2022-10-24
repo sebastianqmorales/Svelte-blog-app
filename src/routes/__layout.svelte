@@ -3,8 +3,7 @@
 	import '$lib/styles/style.scss';
 </script>
 
-<Nav />
-
 <main>
+	<Nav />
 	<slot />
 </main>
