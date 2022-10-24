@@ -2,18 +2,10 @@
 	import '$lib/styles/style.scss';
 	import Cta from '$lib/components/emailcta.svelte';
 	import Card from '$lib/components/card.svelte';
+	import Header from '$lib/components/header.svelte';
 </script>
 
-<section class="section is-medium">
-	<div class="heading-text">
-		Capatalize on your perspective, price your content as low as 1 cent per view and opt into our
-		Data Union to earn money from your daily use of Cuatex.
-	</div>
-	<div class="heading-description">
-		Cuatex is a <strong>Data Dignity </strong> and microtransaction platform focused on a user first
-		expeirence.
-	</div>
-</section>
+<Header />
 <div class="container">
 	<section class="section gradient mt-5">
 		<div class="text mt-5 mb-5">
@@ -45,16 +37,6 @@
 		flex-direction: column;
 		align-items: center;
 		row-gap: 10px;
-	}
-	.section {
-		background-color: #fe7b43;
-		width: 100%;
-	}
-	.heading-text {
-		font-size: 2rem;
-		font-weight: 700;
-		/* letter-spacing: 1px; */
-		line-height: 2.5rem;
 	}
 	.gradient {
 		background: linear-gradient(180deg, rgba(255, 76, 0, 0.08) 0%, rgba(255, 255, 255, 0) 100%);
