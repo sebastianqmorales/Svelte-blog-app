@@ -53,18 +53,13 @@
 		text-decoration: none;
 		font-weight: 600;
 		color: #fe7b43;
-		border: 1px #fe7b43 solid;
 		padding: 0.35rem;
-		border-radius: 35rem;
 	}
 	/* Portfolio button styling */
 	.portfolio {
 		color: #fe7b43;
-		border: 1px #fe7b43 solid;
 		text-decoration: none;
 		padding: 0.35rem;
-		border-radius: 35rem;
-		border: 1px solid;
 		align-self: center;
 		font-weight: 600;
 	}

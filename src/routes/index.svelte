@@ -32,6 +32,7 @@
 </div>
 
 <style>
+	/* Alot of the style is coming from the html tags applying styles from a Bulma CDN that is linked in the Styles.scss file*/
 	.container {
 		display: flex;
 		flex-direction: column;
