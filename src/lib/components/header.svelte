@@ -1,4 +1,4 @@
-<section class="section graphic">
+<section class="section is-medium graphic">
 	<div class="container is-max-desktop">
 		<div class="heading-text">
 			Capatalize on your perspective, price your content as low as 1 cent per view and opt into our
@@ -33,5 +33,11 @@
 		padding-bottom: 20px;
 		/* padding-left: 50px; */
 		/* padding-right: 50px; */
+		/* color: #2a6397; */
+		color: #2d4628;
+	}
+
+	.heading-description {
+		color: #2d4628;
 	}
 </style>

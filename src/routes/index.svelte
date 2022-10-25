@@ -9,6 +9,16 @@
 <Header />
 <div class="container">
 	<section class="section gradient mt-5">
+		<div class="content">
+			<div class="feature-text">
+				<p>Top Features</p>
+				<h1>A people first expeirence</h1>
+				<h5 class="thirdtext mt-6">
+					Make sure your perspective is heard with Linked Venn UI. Earn money from users directly
+					paying you per view. Own your data and earn money by selling it!
+				</h5>
+			</div>
+		</div>
 		<Card />
 	</section>
 	<section class="section">
@@ -21,12 +31,33 @@
 </div>
 
 <style>
-	/* Alot of the style is coming from the html tags applying styles from a Bulma CDN that is linked in the Styles.scss file*/
+	/* Alot of the style is coming from the html tags applying styles from 
+	a Bulma CDN that islinked in the Styles.scss file
+	*/
+	.feature-text {
+		text-align: center;
+		margin-bottom: 7rem;
+	}
+	.feature-text > p {
+		color: #2a6397;
+	}
+	.feature-text > h1 {
+		color: #2d4628;
+	}
+	.thirdtext {
+		padding-left: 20%;
+		padding-right: 20%;
+		line-height: 2rem;
+		/* color: #fe7b43; */
+		color: #405f3af6;
+		font-weight: 500;
+	}
+
 	.container {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		row-gap: 10px;
+		row-gap: 40px;
 	}
 	.gradient {
 		background: linear-gradient(180deg, rgba(255, 76, 0, 0.08) 0%, rgba(255, 255, 255, 0) 100%);

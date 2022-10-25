@@ -1,7 +1,7 @@
 <script>
-	import Nav from '../lib/components/nav.svelte';
-	import Nav2 from '$lib/components/newnav.svelte';
-	import Nav3 from '$lib/components/bulmanav.svelte';
+	import Nav from '../lib/components/navs/nav.svelte';
+	import Nav2 from '$lib/components/navs/newnav.svelte';
+	import Nav3 from '$lib/components/navs/bulmanav.svelte';
 	import '$lib/styles/style.scss';
 </script>
 
