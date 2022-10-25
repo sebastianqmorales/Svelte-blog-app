@@ -2,32 +2,21 @@
 	import '$lib/styles/style.scss';
 	import Cta from '$lib/components/emailcta.svelte';
 	import Card from '$lib/components/card.svelte';
+	import LeftCard from '$lib/components/leftcard.svelte';
 	import Header from '$lib/components/header.svelte';
 </script>
 
 <Header />
 <div class="container">
 	<section class="section gradient mt-5">
-		<div class="text mt-5 mb-5">
-			What is Cuatex? To understand Cuatex you need to understand the current revenue models of the
-			internet. The most popular platforms on the internet use an advertisement model, to give the
-			user free access to the internet and give the creator some chance of making money through ad
-			watch.
-		</div>
 		<Card />
 	</section>
-
-	<div class="gradient-flipped">
-		gradient container
-		<div class="card">card 3</div>
-		<div class="statment">statment 3</div>
-	</div>
-	<div class="email-cta">
-		<div class="top">top description</div>
-		<div class="capture">input part</div>
-		<div class="button">button to approve of input</div>
-	</div>
-	<div class="read">read our blog section</div>
+	<section class="section">
+		<LeftCard />
+	</section>
+	<section class="section flipped-gradient mb-5">
+		<Card />
+	</section>
 	<Cta />
 </div>
 
@@ -44,9 +33,11 @@
 		width: 100%;
 		padding-top: 50px;
 	}
-	.text {
-		font-weight: 500;
+
+	.flipped-gradient {
+		background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(254, 123, 67, 0.15) 100%);
 	}
+
 	:root {
 		--blur: 2.52px;
 		--spread: -1.8px;
