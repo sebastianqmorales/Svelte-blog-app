@@ -11,6 +11,8 @@
 <div class="container">
 	<section class="section gradient mt-5">
 		<Features />
+	</section>
+	<section class="section gradient mt-5">
 		<Card />
 	</section>
 	<section class="section">

@@ -21,6 +21,7 @@
 				</div>
 				<div class="column">
 					<div class="content">
+						<h4>Microtransactions</h4>
 						<h5>This is a deeper level understanding of Cuatex feature 1</h5>
 					</div>
 				</div>
@@ -33,6 +34,7 @@
 				</div>
 				<div class="column">
 					<div class="content">
+						<h4>Data Dignity</h4>
 						<h5>This is a deeper level understanding of Cuatex feature 2</h5>
 					</div>
 				</div>
