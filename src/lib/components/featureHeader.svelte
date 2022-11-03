@@ -22,7 +22,7 @@
 				<div class="column">
 					<div class="content">
 						<h4>Microtransactions</h4>
-						<h5>This is a deeper level understanding of Cuatex feature 1</h5>
+						<p>You can finally earn money from your content and not for views of advertisements.</p>
 					</div>
 				</div>
 			</div>
@@ -35,7 +35,43 @@
 				<div class="column">
 					<div class="content">
 						<h4>Data Dignity</h4>
-						<h5>This is a deeper level understanding of Cuatex feature 2</h5>
+						<p>
+							You own all your data and can sell it. No more manipulation to present you creepy ads.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="columns">
+		<div class="column">
+			<div class="columns">
+				<div class="column">
+					<img class="graphic" src={placeholder} alt="icon" />
+				</div>
+				<div class="column">
+					<div class="content">
+						<h4>MicroPower</h4>
+						<p>
+							You have the power to censor slurs, bad words or hateful content. You have the power
+							to vote and comment on every piece of content.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="columns">
+				<div class="column">
+					<img class="graphic" src={placeholder} alt="icon" />
+				</div>
+				<div class="column">
+					<div class="content">
+						<h4>Linked Venn UI</h4>
+						<p>
+							Finally a refreshing way to interact with content and see multiple perspectives. No
+							more alogorthms rather well though out responses to your content.
+						</p>
 					</div>
 				</div>
 			</div>
