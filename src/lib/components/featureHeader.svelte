@@ -1,5 +1,4 @@
 <script>
-	import placeholder from '$lib/logos/placeholder.png';
 	import icon1 from '$lib/logos/icons/dollar-bills-stack.svg';
 	import icon2 from '$lib/logos/icons/binary.svg';
 	import icon3 from '$lib/logos/icons/vote.svg';
@@ -9,11 +8,11 @@
 <div class="container">
 	<div class="content">
 		<div class="feature-text">
-			<p>Top Features</p>
-			<h1>A people first expeirence</h1>
+			<p>Fundamental Features</p>
+			<h1>A people-first experience.</h1>
 			<h5 class="thirdtext mt-6">
-				Make sure your perspective is heard with our Venn design. Earn money from users directly
-				paying you. Own your data and earn money by selling it!
+				Make your perspective heard with our Venn design. Earn money from users directly paying you.
+				Own and monetize your own data!
 			</h5>
 		</div>
 	</div>
@@ -27,7 +26,7 @@
 					<div class="content">
 						<h4>Microtransactions</h4>
 						<p>
-							No ads, you pay for content and can sell it at whatever price you want, starting at 1
+							No ads! You pay for content and can sell it at whatever price you want, starting at 1
 							cent per view!
 						</p>
 					</div>
@@ -43,8 +42,7 @@
 					<div class="content">
 						<h4>Data Dignity</h4>
 						<p>
-							Since you pay for content, we don't need your data! Own your data and opt into our
-							Data Union program to sell it!
+							We don't need your data! Own your data and opt into our Data Union program to sell it!
 						</p>
 					</div>
 				</div>
@@ -60,7 +58,9 @@
 				<div class="column">
 					<div class="content">
 						<h4>Micropower</h4>
-						<p>No Ai needed, we let you censor inappropriate content and earn money from it!</p>
+						<p>
+							No AI. We let you tag and censor inappropriate content&mdash;and earn money from it!
+						</p>
 					</div>
 				</div>
 			</div>
@@ -74,8 +74,8 @@
 					<div class="content">
 						<h4>Venn UI</h4>
 						<p>
-							No echo chambers, our innovative Venn design encourages sharing unique perspectives
-							while being easy to use.
+							No echo chambers. Our innovative Venn design encourages easy sharing of unique
+							perspectives.
 						</p>
 					</div>
 				</div>
@@ -100,7 +100,7 @@
 		font-weight: 500;
 	}
 	.graphic {
-		transform: scale(0.5);
+		transform: scale(0.65);
 	}
 
 	.content > h4 {

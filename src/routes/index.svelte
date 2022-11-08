@@ -5,14 +5,22 @@
 	import LeftCard from '$lib/components/leftcard.svelte';
 	import Header from '$lib/components/header.svelte';
 	import Features from '$lib/components/featureHeader.svelte';
+	import CustomerSegment from '$lib/components/usersegment.svelte';
+	import TopLevelProp from '$lib/components/toplevelvalue.svelte';
 </script>
 
 <Header />
 <div class="container">
 	<section class="section gradient mt-5">
-		<Features />
+		<TopLevelProp />
+	</section>
+	<section class="section flipped-gradient mb-5">
+		<CustomerSegment />
 	</section>
 	<section class="section gradient mt-5">
+		<Features />
+	</section>
+	<!-- <section class="section gradient mt-5">
 		<Card />
 	</section>
 	<section class="section">
@@ -20,7 +28,7 @@
 	</section>
 	<section class="section flipped-gradient mb-5">
 		<Card />
-	</section>
+	</section> -->
 	<Cta />
 </div>
 

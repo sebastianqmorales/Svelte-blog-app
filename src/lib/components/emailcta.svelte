@@ -12,13 +12,18 @@
 	<div class="cta-title mb-4">
 		Help us end media manipulation. Sign up to be notified of our launch.
 	</div>
-	<form class="field mb-0" name="email" method="POST" data-netlify="true">
+	<form
+		class="is-flex is-flex-direction-column field mb-0"
+		name="email"
+		method="POST"
+		data-netlify="true"
+	>
 		<div class="control">
 			<input class="input" type="email" placeholder="example@gmail.com" />
 		</div>
 		<p class="help " />
+		<input type="submit" class="button mt-1" value="Submit" />
 	</form>
-	<div type="submit" class="button mt-1">Submit</div>
 	<div class="email-disclaimer mt-5">
 		By submitting this form you consent to us emailing you occasionally about our products and
 		services. You can unsubscribe from emails at any time, and we will never pass your email to
