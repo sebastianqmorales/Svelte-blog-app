@@ -1,5 +1,9 @@
 <script>
 	import placeholder from '$lib/logos/placeholder.png';
+	import icon1 from '$lib/logos/icons/dollar-bills-stack.svg';
+	import icon2 from '$lib/logos/icons/binary.svg';
+	import icon3 from '$lib/logos/icons/vote.svg';
+	import icon4 from '$lib/logos/icons/venn-diagram.svg';
 </script>
 
 <div class="container">
@@ -8,35 +12,39 @@
 			<p>Top Features</p>
 			<h1>A people first expeirence</h1>
 			<h5 class="thirdtext mt-6">
-				Make sure your perspective is heard with Linked Venn UI. Earn money from users directly
-				paying you per view. Own your data and earn money by selling it!
+				Make sure your perspective is heard with our Venn design. Earn money from users directly
+				paying you. Own your data and earn money by selling it!
 			</h5>
 		</div>
 	</div>
 	<div class="columns">
 		<div class="column">
 			<div class="columns">
-				<div class="column">
-					<img class="graphic" src={placeholder} alt="icon" />
+				<div class="column is-one-quarter is-one-fifth-mobile ">
+					<img class="graphic" src={icon1} alt="icon" />
 				</div>
 				<div class="column">
 					<div class="content">
 						<h4>Microtransactions</h4>
-						<p>You can finally earn money from your content and not for views of advertisements.</p>
+						<p>
+							No ads, you pay for content and can sell it at whatever price you want, starting at 1
+							cent per view!
+						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="column">
 			<div class="columns">
-				<div class="column">
-					<img class="graphic" src={placeholder} alt="icon" />
+				<div class="column is-one-quarter is-one-fifth-mobile">
+					<img class="graphic" src={icon2} alt="icon" />
 				</div>
 				<div class="column">
 					<div class="content">
 						<h4>Data Dignity</h4>
 						<p>
-							You own all your data and can sell it. No more manipulation to present you creepy ads.
+							Since you pay for content, we don't need your data! Own your data and opt into our
+							Data Union program to sell it!
 						</p>
 					</div>
 				</div>
@@ -46,31 +54,28 @@
 	<div class="columns">
 		<div class="column">
 			<div class="columns">
-				<div class="column">
-					<img class="graphic" src={placeholder} alt="icon" />
+				<div class="column is-one-quarter is-one-fifth-mobile">
+					<img class="graphic" src={icon3} alt="icon" />
 				</div>
 				<div class="column">
 					<div class="content">
-						<h4>MicroPower</h4>
-						<p>
-							You have the power to censor slurs, bad words or hateful content. You have the power
-							to vote and comment on every piece of content.
-						</p>
+						<h4>Micropower</h4>
+						<p>No Ai needed, we let you censor inappropriate content and earn money from it!</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="column">
 			<div class="columns">
-				<div class="column">
-					<img class="graphic" src={placeholder} alt="icon" />
+				<div class="column is-one-quarter is-one-fifth-mobile">
+					<img class="graphic" src={icon4} alt="icon" />
 				</div>
 				<div class="column">
 					<div class="content">
-						<h4>Linked Venn UI</h4>
+						<h4>Venn UI</h4>
 						<p>
-							Finally a refreshing way to interact with content and see multiple perspectives. No
-							more alogorthms rather well though out responses to your content.
+							No echo chambers, our innovative Venn design encourages sharing unique perspectives
+							while being easy to use.
 						</p>
 					</div>
 				</div>
@@ -84,18 +89,21 @@
 		text-align: center;
 		margin-bottom: 7rem;
 	}
-	.feature-text > p {
-		color: #2a6397;
-	}
 	.feature-text > h1 {
-		color: #2d4628;
+		color: #ff4d00;
 	}
 	.thirdtext {
 		padding-left: 20%;
 		padding-right: 20%;
 		line-height: 2rem;
 		/* color: #fe7b43; */
-		color: #405f3af6;
 		font-weight: 500;
+	}
+	.graphic {
+		transform: scale(0.5);
+	}
+
+	.content > h4 {
+		color: #ff4d00;
 	}
 </style>

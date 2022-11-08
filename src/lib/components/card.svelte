@@ -1,7 +1,7 @@
 <script>
 	import placeholder from '$lib/logos/placeholder.png';
 	import appframe from '$lib/logos/Comment-Frame1.svg';
-	// Create an image prop for the card
+	// Create an image prop for the card & text prop
 </script>
 
 <div class="columns">
