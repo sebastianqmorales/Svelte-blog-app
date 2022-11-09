@@ -9,10 +9,15 @@
 			algorithms or ads.
 		</div>
 		<div class="my-5">
-			<form class="is-flex form1 field" name="top-email" method="POST" data-netlify="true">
-				<div class="control">
-					<input class="input" type="email" placeholder="example@gmail.com" />
-				</div>
+			<form
+				class="is-flex form1 field"
+				name="top-email"
+				method="POST"
+				netlify-honeypot="bot-field"
+				data-netlify="true"
+			>
+				<input type="hidden" name="form-name" value="top-email" />
+				<input class="input" type="email" placeholder="example@gmail.com" />
 				<p class="help" />
 				<input type="submit" class="button " value="Notify me of launch!" />
 			</form>

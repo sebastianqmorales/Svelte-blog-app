@@ -6,11 +6,11 @@
 		class="is-flex is-flex-direction-column field mb-0"
 		name="email"
 		method="POST"
+		netlify-honeypot="bot-field"
 		data-netlify="true"
 	>
-		<div class="control">
-			<input class="input" type="email" placeholder="example@gmail.com" />
-		</div>
+		<input type="hidden" name="form-name" value="email" />
+		<input class="input" type="email" placeholder="example@gmail.com" />
 		<p class="help " />
 		<input type="submit" class="button mt-1" value="Submit" />
 	</form>
