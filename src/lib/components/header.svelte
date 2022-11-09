@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <section class="section is-medium">
 	<div class="container is-max-desktop">
 		<div class="heading-text mt-6">Share your perspective.</div>

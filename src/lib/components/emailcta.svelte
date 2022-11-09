@@ -1,14 +1,4 @@
-<script>
-	// import logo from '$lib/logos/CuatexFullLogo.svg';
-	import graphic from '$lib/logos/Container-Background.svg';
-</script>
-
 <div class="container is-max-desktop my-6">
-	<!-- <img
-		src={graphic}
-		alt="background"
-		style="background-image: url('$lib/logos/Container-Background.svg');"
-	/> -->
 	<div class="cta-title mb-4">
 		Help us end media manipulation. Sign up to be notified of our launch.
 	</div>
@@ -32,7 +22,6 @@
 </div>
 
 <style>
-	/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); */
 	* {
 		font-family: 'Poppins', sans-serif;
 	}

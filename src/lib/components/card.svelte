@@ -1,6 +1,4 @@
 <script>
-	import placeholder from '$lib/logos/placeholder.png';
-	import appframe from '$lib/logos/Comment-Frame1.svg';
 	// Create an image prop for the card & text prop
 </script>
 
@@ -19,7 +17,7 @@
 				<figure class="image">
 					<!-- svelte-ignore a11y-img-redundant-alt -->
 					<!-- <img src={placeholder} alt="Placeholder image" /> -->
-					<img src={appframe} alt="Placeholder image" />
+					<img src="" alt="Placeholder image" />
 				</figure>
 			</div>
 		</div>

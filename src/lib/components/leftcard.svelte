@@ -1,14 +1,10 @@
-<script>
-	import placeholder from '$lib/logos/placeholder.png';
-</script>
-
 <div class="columns">
 	<div class="column">
 		<div class="card">
 			<div class="card-image">
 				<figure class="image">
 					<!-- svelte-ignore a11y-img-redundant-alt -->
-					<img src={placeholder} alt="Placeholder image" />
+					<img src="" alt="Placeholder image" />
 				</figure>
 			</div>
 		</div>
