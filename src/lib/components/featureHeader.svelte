@@ -5,7 +5,7 @@
 	import icon4 from '$lib/logos/icons/venn-diagram.svg';
 </script>
 
-<div class="container">
+<div class="container my-6">
 	<div class="content">
 		<div class="feature-text">
 			<p>Fundamental Features</p>

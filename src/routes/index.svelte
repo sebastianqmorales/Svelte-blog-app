@@ -20,15 +20,6 @@
 	<section class="section gradient mt-5">
 		<Features />
 	</section>
-	<!-- <section class="section gradient mt-5">
-		<Card />
-	</section>
-	<section class="section">
-		<LeftCard />
-	</section>
-	<section class="section flipped-gradient mb-5">
-		<Card />
-	</section> -->
 	<Cta />
 </div>
 

@@ -3,7 +3,7 @@
 	import graphic from '$lib/logos/Container-Background.svg';
 </script>
 
-<div class="container is-max-desktop mb-5">
+<div class="container is-max-desktop my-6">
 	<!-- <img
 		src={graphic}
 		alt="background"
