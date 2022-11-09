@@ -26,7 +26,7 @@
 	/* Styles are organized from top of html to bottom */
 	.post-container {
 		margin: 1rem;
-		margin-top: 3rem;
+		margin-top: 5rem;
 		margin-bottom: 3rem;
 		padding: 2rem;
 	}

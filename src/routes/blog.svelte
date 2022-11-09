@@ -50,6 +50,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin-top: 5rem;
 	}
 	ul {
 		list-style: none;

@@ -32,6 +32,7 @@
 	}
 
 	.container {
+		margin-top: 10rem;
 		padding: 3rem;
 	}
 

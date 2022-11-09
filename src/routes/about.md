@@ -21,4 +21,4 @@ This site is about creating a new space on the internet that values the equity a
 <br>
 Our vision is to create a place where every perspective is heard and organized in an accesable way and to evolve the way we present information, to revolutionize the way we consume stories and how we understand differing perspectives.
 
-We hope you join us on this mission we have set out for, we value everyones input and love every user. This blog is the first step towards our mission, it may be long but it will be worth it. Thank you for reading Cuatex.
+We hope you join us on this mission we have set out for, we value everyones input and love every user. This landing page is the first step towards our mission, it may be long but it will be worth it. Thank you for reading Cuatex.
