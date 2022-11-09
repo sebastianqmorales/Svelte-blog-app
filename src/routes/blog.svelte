@@ -1,14 +1,11 @@
 <script context="module">
-	export const load = async ({ params, fetch }) => {
-		const currentCategory = params.category;
-		const response = await fetch('/api/posts.json');
-		const posts = await response.json();
-
-		const matchingPosts = posts.filter((post) => post.meta.categories.includes(currentCategory));
+	export const load = async ({ fetch }) => {
+		const posts = await fetch('/api/posts.json');
+		const allPosts = await posts.json();
 
 		return {
 			props: {
-				posts: matchingPosts
+				posts: allPosts
 			}
 		};
 	};
@@ -31,11 +28,13 @@
 					{post.meta.date}
 					{#each post.meta.categories as category}
 						<div class="categorycontainer">
-							#{category}
+							<a href="/blog-posts/categories/{category}">
+								#{category}
+							</a>
 						</div>
 					{/each}
 				</div>
-				<p>
+				<p class="snippetcontainer">
 					<a href={post.path}>
 						<!-- Need to make a function to calculate snippets of the blog -->
 						{post.meta.snippet}
@@ -51,8 +50,8 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin-top: 5rem;
 	}
-
 	ul {
 		list-style: none;
 		padding-left: 0;
@@ -60,7 +59,8 @@
 		margin: 0mm;
 	}
 	li {
-		/* border: 1px solid #dbd6d6; */
+		border: 1px solid #fe7b43;
+		border-radius: 20px;
 		padding: 1rem;
 	}
 
@@ -72,7 +72,6 @@
 		align-items: center;
 		gap: 1rem;
 		margin: 0;
-		margin-left: 0.4rem;
 		padding: 0;
 	}
 
@@ -83,13 +82,36 @@
 		border-radius: 0.5rem;
 		padding: 0.1rem;
 	}
-	p {
-		margin: 0.5rem;
+	.categorycontainer > a {
+		font-weight: 600;
+		text-decoration: none;
+		color: #fe7b43;
+	}
+
+	.categorycontainer:hover {
+		color: #fe7b43;
+		background-color: #fe7b43;
+	}
+
+	.categorycontainer a:hover {
+		color: #e7e7e7;
+	}
+
+	.snippetcontainer {
+		margin: 0;
+		margin-top: 1rem;
 		color: black;
 	}
 
 	a {
 		text-decoration: none;
 		color: black;
+	}
+
+	/* styling for really big screens */
+	@media screen and (min-width: 1660px) {
+		.container {
+			padding: 0 20%;
+		}
 	}
 </style>

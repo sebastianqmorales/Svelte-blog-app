@@ -1,4 +1,5 @@
 ---
+layout: blog
 title: Data Dignity is the future of the internet
 date: 'May 1st, 2022'
 categories:

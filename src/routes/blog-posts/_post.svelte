@@ -12,7 +12,7 @@
 			<p class="date">{date}</p>
 			{#each categories as category}
 				<div class="categorycontainer">
-					<a href="/blog/categories/{category}">
+					<a href="/blog-posts/categories/{category}">
 						#{category}
 					</a>
 				</div>
@@ -26,7 +26,7 @@
 	/* Styles are organized from top of html to bottom */
 	.post-container {
 		margin: 1rem;
-		margin-top: 3rem;
+		margin-top: 5rem;
 		margin-bottom: 3rem;
 		padding: 2rem;
 	}

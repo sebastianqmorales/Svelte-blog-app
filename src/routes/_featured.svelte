@@ -5,7 +5,7 @@
 </script>
 
 <div class="container">
-	<a class="link" href="/blog/DataDignity">
+	<a class="link" href="/blog-posts/DataDignity">
 		<h1>{title}</h1>
 	</a>
 	{#if categories.length}
@@ -13,7 +13,7 @@
 			<p class="date">{date}</p>
 			{#each categories as category}
 				<div class="categorycontainer">
-					<a href="/blog/categories/{category}">
+					<a href="/blog-posts/categories/{category}">
 						#{category}
 					</a>
 				</div>
@@ -32,6 +32,7 @@
 	}
 
 	.container {
+		margin-top: 10rem;
 		padding: 3rem;
 	}
 
