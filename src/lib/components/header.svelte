@@ -17,7 +17,14 @@
 				data-netlify="true"
 			>
 				<input type="hidden" name="form-name" value="top-email" />
-				<input class="input" type="email" placeholder="example@gmail.com" />
+				<input
+					name="email"
+					id="email"
+					class="input"
+					type="text"
+					required
+					placeholder="example@gmail.com"
+				/>
 				<p class="help" />
 				<input type="submit" class="button " value="Notify me of launch!" />
 			</form>
