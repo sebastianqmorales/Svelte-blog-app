@@ -1,6 +1,6 @@
 <section class="section is-medium">
 	<div class="container is-max-desktop">
-		<div class="heading-text mt-6">Share your perspective.</div>
+		<div class="heading-text mt-6">More better content, no ads ever.</div>
 		<div class="heading-description">
 			Cuatex creates economic incentives for sharing unique, valuable and thought-provoking content.
 		</div>
