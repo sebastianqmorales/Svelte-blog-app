@@ -13,7 +13,7 @@
 				class="is-flex form1 field"
 				name="top-email"
 				method="POST"
-				netlify-honeypot="bot-field"
+				netlify-honeypot="nbot-field"
 				data-netlify="true"
 			>
 				<input type="hidden" name="form-name" value="top-email" />

@@ -13,7 +13,7 @@
 			<p>What is Cuatex?</p>
 			<h1>Cuatex is a social media</h1>
 			<h5 class="thirdtext mt-6">
-				Our platform is run by the users and our economic model encourages valuable, resonable and
+				Our platform is run by the users and our economic model encourages valuable, reasonable and
 				transparent creator content.
 			</h5>
 		</div>
